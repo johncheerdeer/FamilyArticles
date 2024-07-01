@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(56, 78, 122);
+    background-color: #394e7a;
     font-family: Arial, Helvetica, sans-serif;
 }
 .navbar {
@@ -24,6 +24,7 @@ body {
     border: none;
     color: rgb(255, 255, 255);
     border-radius: 10px;
+
 }
 .navbuttons:hover {
     background-color: rgb(74, 74, 74);
@@ -38,14 +39,14 @@ body {
 .articleOneBox {
     height: 200px;
     width: 200px;
-    background-color: rgb(92, 110, 189);
+    background-color: #5d6ebe;
     border-radius: 10px;
     display: flexbox;
     flex-wrap: wrap;
     /*align-content: center;*/
     justify-content: center;
     gap: 10px;
-    color: rgb(184, 192, 231);
+    color: #b7c0e7;
     padding: 10px;
 }
 .articleContainer1 {
