@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(56, 78, 122);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 15px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+.navlogo {
+    height: 40px;
+    width: 40px;
+}
+.navbuttons {
+    height: 30px;
+    background-color: black;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.navbuttons:hover {
+    background-color: rgb(74, 74, 74);
+}
+.allArticles {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: left;
+    gap: 30px;
+}
+.articleOneBox {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(92, 110, 189);
+    border-radius: 10px;
+    display: flexbox;
+    flex-wrap: wrap;
+    /*align-content: center;*/
+    justify-content: center;
+    gap: 10px;
+    color: rgb(184, 192, 231);
+    padding: 10px;
+}
+.articleContainer1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+.articleContainer2 {
+    height: fit-content;
+    width: 900px;
+    background-color: rgb(237, 239, 255);
+    border-radius: 10px; 
+    padding: 10px;
+}
