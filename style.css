@@ -49,6 +49,11 @@ body {
     color: #b7c0e7;
     padding: 10px;
 }
+@media all (max-width: 600px;) {
+    .navbar {
+        height: 300px;
+    }
+}
 /* figure out media 600 thing
 
         article css below*/
