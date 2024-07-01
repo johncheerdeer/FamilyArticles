@@ -49,6 +49,14 @@ body {
     color: #b7c0e7;
     padding: 10px;
 }
+@media (max-width: 600px) {
+    .navbar {
+        height: 170;
+    }
+}
+/* figure out media 600 thing
+
+        article css below*/
 .articleContainer1 {
     height: 100%;
     width: 100%;
@@ -60,7 +68,7 @@ body {
 .articleContainer2 {
     height: fit-content;
     width: 900px;
-    background-color: rgb(237, 239, 255);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px; 
     padding: 10px;
 }
